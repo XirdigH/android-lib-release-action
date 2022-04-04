@@ -1,4 +1,4 @@
-FROM alpine:3.12.1
+FROM alpine:3.13.9
 
 COPY entrypoint.sh /entrypoint.sh
 COPY prod_version_bump.sh /prod_version_bump.sh
